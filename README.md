@@ -25,9 +25,7 @@ Below are several examples of complex plots. Feel free to work through them on y
 We will start with a volcano plot I have made myself. 
 
 <p align="left">
-  <a href="https://github.com/redgar598/eipp_data_viz/tree/master/figures">
-<img src="volcano.png"  width="500" height="400">
-  </a>
+  <img src="figures/volcano.png" width="500" height="400">
 </p>
 
 
