@@ -62,12 +62,12 @@ rstudio
     - Similar process to installing locally and I will help you through it if anyone needs this option
 
 <br/><br/>
-
+#### R Projects
 What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load your required paths to data, and related scripts. What we are doing is a great use where if you work locally all the scripts should run within the eipp_data_viz folder without having to specify exactly where on your computer you saved it. It is a system to help with data reproducibility when using R.
 
 <br/><br/>
 
-#### Data We Will Be Using for ggplot Introduction
+## Data We Will Be Using for ggplot Introduction
 We will be looking at gene expression data from mouse photoreceptors. There are samples from different developmental stages (E16,P2,P6,P10 and 4 weeks) and two mouse lines, a wildtype (wt) and knockouts for rod cell specific transcription factor (NrlKO). The gene expression and sample information data were collected from the Gene Expression Omnibus (GEO), under study ID [GSE4051](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4051).
 
 For more information on the actual paper see the associated [publication](http://www.pnas.org/cgi/pmidlookup?view=long&pmid=16505381).
@@ -83,7 +83,7 @@ ___
 
 <br/><br/>
 
-# Extended ggplot
+## Extended ggplot
 Below are several examples of complex plots. Feel free to work through them on your own to see some techniques for developing presentation ready plots. 
 
 ### Example 1
