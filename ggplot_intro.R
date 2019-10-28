@@ -229,6 +229,16 @@ ggplot(data_for_plot, aes(gene, expression))+
 
 
 
+## Now that we have something niec lets save it
+ggsave("figures/violin_genotype_twogene.pdf",  width = 8, height = 6)
+ggsave("figures/violin_genotype_twogene.jpeg",  width = 8, height = 6)
+
+
+
+
+  
+
+
 ## Another way to look at the same data
 ggplot(data_for_plot, aes(expression, fill=gene))+
   geom_density()+theme_bw()+
