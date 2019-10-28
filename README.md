@@ -8,20 +8,20 @@ Plotting and data visualization is key to conveying the point of your results, b
 *Get everyone set up with a functional version of RStudio (with necessary packages) and data
 *[Overview of visulization principles](https://docs.google.com/presentation/d/1dXF6E4tcLM1--YnmRgFB2DA9HN9wXpaxVvRMMOuquPQ/edit?usp=sharing)
 *Introduction to ggplot
-    -[ggplot_intro.R](github.com/redgar598/eipp_data_viz/blob/master/ggplot_intro.R)
-    -Skip to Extended ggplot if farmilliar with basics already
-        -[ggplot_extended.R](https://github.com/redgar598/eipp_data_viz/blob/master/ggplot_extended.R)
+    *[ggplot_intro.R](github.com/redgar598/eipp_data_viz/blob/master/ggplot_intro.R)
+    *Skip to Extended ggplot if farmilliar with basics already
+        *[ggplot_extended.R](https://github.com/redgar598/eipp_data_viz/blob/master/ggplot_extended.R)
 *Discuss individual data visulization needs
-    -Each person explains their porject and data structure
-    -Sketch plots of data you would like to implement
+    *Each person explains their porject and data structure
+    *Sketch plots of data you would like to implement
 
 #### Day 2
 *Demostrate the use of:
-    -Sourcing
-        -[Heat_scree_plot_generic.R](https://github.com/redgar598/eipp_data_viz/blob/master/Heat_scree_plot_generic.R)
-        -[volcano.R](https://github.com/redgar598/eipp_data_viz/blob/master/volcano.R)
-    -Custom Themes
-        -[pretty_plots.R](https://github.com/redgar598/eipp_data_viz/blob/master/pretty_plots.R)
+    *Sourcing
+        *[Heat_scree_plot_generic.R](https://github.com/redgar598/eipp_data_viz/blob/master/Heat_scree_plot_generic.R)
+        *[volcano.R](https://github.com/redgar598/eipp_data_viz/blob/master/volcano.R)
+    *Custom Themes
+        *[pretty_plots.R](https://github.com/redgar598/eipp_data_viz/blob/master/pretty_plots.R)
 
 
 
