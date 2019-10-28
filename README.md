@@ -63,7 +63,7 @@ rstudio
 
 <br/><br/>
 #### R Projects
-What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load your required paths to data, and related scripts. What we are doing is a great use where if you work locally all the scripts should run within the eipp_data_viz folder without having to specify exactly where on your computer you saved it. It is a system to help with data reproducibility when using R.
+What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load the required paths to the data, and related scripts whereever they happen to be on your computer. What we are doing for this tutorial is a great example. Since many of you will work locally, the scripts for eipp_data_viz should run within the eipp_data_viz folder on your computer without having to specify exactly where on your computer you saved it. R Projects are a system to help with data reproducibility when using R.
 
 <br/><br/>
 
