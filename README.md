@@ -1,10 +1,31 @@
 # EIPP Data Visualization Group Project
-Code for introduction to data visualization for the EIPP 2nd year course
 
-Contact
-
-## Overview
 Plotting and data visualization is key to conveying the point of your results, but it often gets overlooked as a trivial task. In this project we will demonstrate the power of a good plot! It will discuss the main principles to consider when designing a plot, work through several examples (both basic and complex), and have a plot workshop session. At the end of the workshop you will be able to create a plot or two you can use in your own work. We will use R and ggplot (no experience required) to make presentation/publication-ready plots.
+
+## Project Outline
+
+#### Day 1
+*Get everyone set up with a functional version of RStudio (with necessary packages) and data
+*[Overview of visulization principles](https://docs.google.com/presentation/d/1dXF6E4tcLM1--YnmRgFB2DA9HN9wXpaxVvRMMOuquPQ/edit?usp=sharing)
+*Introduction to ggplot
+    -[ggplot_intro.R](github.com/redgar598/eipp_data_viz/blob/master/ggplot_intro.R)
+    -Skip to Extended ggplot if farmilliar with basics already
+        -[ggplot_extended.R](https://github.com/redgar598/eipp_data_viz/blob/master/ggplot_extended.R)
+*Discuss individual data visulization needs
+    -Each person explains their porject and data structure
+    -Sketch plots of data you would like to implement
+
+#### Day 2
+*Demostrate the use of:
+    -Sourcing
+        -[Heat_scree_plot_generic.R](https://github.com/redgar598/eipp_data_viz/blob/master/Heat_scree_plot_generic.R)
+        -[volcano.R](https://github.com/redgar598/eipp_data_viz/blob/master/volcano.R)
+    -Custom Themes
+        -[pretty_plots.R](https://github.com/redgar598/eipp_data_viz/blob/master/pretty_plots.R)
+
+
+
+## RStudio Setup
 
 
 
