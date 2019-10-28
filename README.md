@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # EIPP Data Visualization Group Project
 
 Plotting and data visualization is key to conveying the point of your results, but it often gets overlooked as a trivial task. In this project we will demonstrate the power of a good plot! It will discuss the main principles to consider when designing a plot, work through several examples (both basic and complex), and have a plot workshop session. At the end of the workshop you will be able to create a plot or two you can use in your own work. We will use R and ggplot (no experience required) to make presentation/publication-ready plots.
