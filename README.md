@@ -22,14 +22,37 @@ Plotting and data visualization is key to conveying the point of your results, b
         - [volcano.R](https://github.com/redgar598/eipp_data_viz/blob/master/volcano.R)
     - Custom Themes
         - [pretty_plots.R](https://github.com/redgar598/eipp_data_viz/blob/master/pretty_plots.R)
+- One-on-one discussions on implementing plots discussed yesterday
+    - We can also stay in the larger group to learn from each other, or welcome to work independently in implementing your plots
+- After lunch meet to prepare presentation (5-8 min to present)
 
 
 
 ## RStudio Setup
+Three options to get a functional RStudio with example data and necessary packages:
+
+| Option                | Pro                                        | Con                                                                         |
+|-----------------------|--------------------------------------------|-----------------------------------------------------------------------------|
+| Virtual Machine (VM)  | Easy, already set up                       | Won't have this resource once at home and you can not work on your own data |
+| RStudio Local Install | Will be set to do further analysis at home | More difficult                                                              |
+| RStudio Cloud         | Easy and can continue to use at home       | Slow and should not upload your real data                                   |
 
 
+1. Use the virtual machine  (VM)
+    - This contains all installed packages and data for you 
+    - Once on the VM run
+    
+```
+conda activate eipp_data_viz
+cd to data directory on VM #cd Documents/extra_curr/eipp_data_viz/eipp_data_viz/
+rstudio
+#Load eipp_data_viz.Rproj
+```
 
-#### Data We Will Be Using for Introduction
+2. Install RStudio and necessary packages locally
+
+
+#### Data We Will Be Using for ggplot Introduction
 We will be looking at gene expression data from mouse photoreceptors. There are samples from different developmental stages (E16,P2,P6,P10 and 4 weeks) and two mouse lines, a wildtype (wt) and knockouts for rod cell specific transcription factor (NrlKO). The gene expression and sample information data were collected from the Gene Expression Omnibus (GEO), under study ID [GSE4051](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4051).
 
 For more information on the actual paper see the associated [publication](http://www.pnas.org/cgi/pmidlookup?view=long&pmid=16505381).
@@ -45,7 +68,7 @@ ___
 
 <br/><br/>
 
-# EIPP Data Visualization Extended Examples
+# Extended ggplot
 Below are several examples of complex plots. Feel free to work through them on your own to see some techniques for developing presentation ready plots. 
 
 ### Example 1
