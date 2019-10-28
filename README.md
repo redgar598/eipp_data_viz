@@ -33,12 +33,12 @@ Three options to get a functional RStudio with example data and necessary packag
 
 | Option                | Pro                                        | Con                                                                         |
 |-----------------------|--------------------------------------------|-----------------------------------------------------------------------------|
-| Virtual Machine (VM)  | Easy, already set up                       | Won't have this resource once at home and you can not work on your own data |
+| Virtual Machine (VM)  | Easy, already set up for you               | Won't have this resource once at home and you can not work on your own data |
 | RStudio Local Install | Will be set to do further analysis at home | More difficult                                                              |
 | RStudio Cloud         | Easy and can continue to use at home       | Slow and should not upload your real data                                   |
 
 
-1. Use the virtual machine  (VM)
+1. **Use the virtual machine  (VM)**
     - This contains all installed packages and data for you 
     - When on VM run
     
@@ -49,7 +49,7 @@ rstudio
 #Load eipp_data_viz.Rproj
 ```
 
-2. Install RStudio and necessary packages locally
+2. **Install RStudio and necessary packages locally**
     - First download [R](https://cran.r-project.org/) and then [R Studio](https://www.rstudio.com/products/rstudio/download/#download) to your local machine 
     - Then to get the data
         - *If you have git installed*, then in RStudio: Start a new project (file>new project), select Version Control, then git
@@ -58,9 +58,14 @@ rstudio
         - *Without git download* git repo as zip: [here](https://github.com/redgar598/eipp_data_viz) then hit "Clone or download"
             - Then within RStudio navigate to the folder and load eipp_data_viz.Rproj
 
-3. Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up
+3. **Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up**
     - Similar process to installing locally and I will help you through it if anyone needs this option
 
+<br/><br/>
+
+What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load your required paths to data, and related scripts. What we are doing is a great use where if you work locally all the scripts should run within the eipp_data_viz folder without having to specify exactly where on your computer you saved it. It is a system to help with data reproducibility when using R.
+
+<br/><br/>
 
 #### Data We Will Be Using for ggplot Introduction
 We will be looking at gene expression data from mouse photoreceptors. There are samples from different developmental stages (E16,P2,P6,P10 and 4 weeks) and two mouse lines, a wildtype (wt) and knockouts for rod cell specific transcription factor (NrlKO). The gene expression and sample information data were collected from the Gene Expression Omnibus (GEO), under study ID [GSE4051](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4051).
