@@ -40,7 +40,7 @@ Three options to get a functional RStudio with example data and necessary packag
 
 1. Use the virtual machine  (VM)
     - This contains all installed packages and data for you 
-    - Once on the VM run
+    - When on VM run
     
 ```
 conda activate eipp_data_viz
@@ -50,6 +50,16 @@ rstudio
 ```
 
 2. Install RStudio and necessary packages locally
+    - First download [R](https://cran.r-project.org/) and then [R Studio](https://www.rstudio.com/products/rstudio/download/#download) to your local machine 
+    - Then to get the data
+        - *If you have git installed*, then in RStudio: Start a new project (file>new project), select Version Control, then git
+            - Paste the repository url https://github.com/redgar598/eipp_data_viz.git
+            - Once this has cloned load eipp_data_viz.Rproj
+        - *Without git download* git repo as zip: [here](https://github.com/redgar598/eipp_data_viz) then hit "Clone or download"
+            - Then within RStudio navigate to the folder and load eipp_data_viz.Rproj
+
+3. Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up
+    - Similar process to installing locally and I will help you through it if anyone needs this option
 
 
 #### Data We Will Be Using for ggplot Introduction
