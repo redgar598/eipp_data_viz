@@ -51,6 +51,7 @@ rstudio
 # Open the ggplot_intro.R script
 ```
 <br/>
+
 2. **Install RStudio and necessary packages locally**
     - First download [R](https://cran.r-project.org/) and then [R Studio](https://www.rstudio.com/products/rstudio/download/#download) to your local machine 
     - Then to get the data
@@ -76,6 +77,7 @@ install.packages("rafalib")
 install.packages("dplyr")
 ```
 <br/>
+
 3. **Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up**
     - Similar process to installing locally and I will help you through it if anyone needs this option
 
