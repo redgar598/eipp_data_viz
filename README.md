@@ -43,10 +43,12 @@ Three options to get a functional RStudio with example data and necessary packag
     - When on VM run
     
 ```
+#open terminal and run these two lines
 conda activate eipp_data_viz
-cd to data directory on VM #cd Documents/extra_curr/eipp_data_viz/eipp_data_viz/
 rstudio
-#Load eipp_data_viz.Rproj
+#in the files panel click the eipp_data_viz folder
+#click on eipp_data_viz.Rproj
+# Open the ggplot_intro.R script
 ```
 
 2. **Install RStudio and necessary packages locally**
@@ -57,6 +59,22 @@ rstudio
             - Once this has cloned load eipp_data_viz.Rproj
         - *Without git download* git repo as zip: [here](https://github.com/redgar598/eipp_data_viz) then hit "Clone or download"
             - Then within RStudio navigate to the folder and load eipp_data_viz.Rproj
+    
+    - Then after cloning from git or downloading the zip you need a few packages installed
+    
+```
+# These are essential
+install.packages("ggplot2")
+install.packages("reshape2")
+install.packages("gridExtra")
+
+
+# These are fun and useful
+install.packages("RColorBrewer")
+install.packages("scales")
+install.packages("rafalib")
+install.packages("dplyr")
+```
 
 3. **Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up**
     - Similar process to installing locally and I will help you through it if anyone needs this option
