@@ -36,7 +36,7 @@ Three options to get a functional RStudio with example data and necessary packag
 | Virtual Machine (VM)  | Easy, already set up for you               | Won't have this resource once at home and you can not work on your own data |
 | RStudio Local Install | Will be set to do further analysis at home | More difficult                                                              |
 | RStudio Cloud         | Easy and can continue to use at home       | Slow and should not upload your real data                                   |
-
+<br/>
 
 1. **Use the virtual machine  (VM)**
     - This contains all installed packages and data for you 
@@ -50,7 +50,7 @@ rstudio
 #click on eipp_data_viz.Rproj
 # Open the ggplot_intro.R script
 ```
-
+<br/>
 2. **Install RStudio and necessary packages locally**
     - First download [R](https://cran.r-project.org/) and then [R Studio](https://www.rstudio.com/products/rstudio/download/#download) to your local machine 
     - Then to get the data
@@ -75,12 +75,14 @@ install.packages("scales")
 install.packages("rafalib")
 install.packages("dplyr")
 ```
-
+<br/>
 3. **Rstudio session in the [cloud](https://rstudio.cloud/) is another option but will only be a back up**
     - Similar process to installing locally and I will help you through it if anyone needs this option
 
 <br/><br/>
-#### R Projects
+
+
+### R Projects
 What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load the required paths to the data, and related scripts whereever they happen to be on your computer. What we are doing for this tutorial is a great example. Since many of you will work locally, the scripts for eipp_data_viz should run within the eipp_data_viz folder on your computer without having to specify exactly where on your computer you saved it. R Projects are a system to help with data reproducibility when using R.
 
 <br/><br/>
