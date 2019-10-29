@@ -36,6 +36,7 @@ Three options to get a functional RStudio with example data and necessary packag
 | Virtual Machine (VM)  | Easy, already set up for you               | Won't have this resource once at home and you can not work on your own data |
 | RStudio Local Install | Will be set to do further analysis at home | More difficult                                                              |
 | RStudio Cloud         | Easy and can continue to use at home       | Slow and should not upload your real data                                   |
+
 <br/>
 
 1. **Use the virtual machine  (VM)**
