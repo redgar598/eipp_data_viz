@@ -162,3 +162,16 @@ The following example is for visualizing clustering data with color. The provide
 [ggplot cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 <br/>
 [Points of View columns on data visualization](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
+
+
+# Things we found
+'''
+theme(
+  panel.background = element_rect(fill = "#BFD5E3", colour = "#6D9EC1",
+                                size = 2, linetype = "solid"),
+  panel.grid.major = element_line(size = 0.5, linetype = 'solid',
+                                colour = "white"), 
+  panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
+                                colour = "white")
+  )
+ '''
