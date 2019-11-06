@@ -11,8 +11,8 @@ Plotting and data visualization is key to conveying the point of your results, b
     - [ggplot_intro.R](https://github.com/redgar598/eipp_data_viz/blob/master/ggplot_intro.R)
     - Skip to extended ggplot if farmilliar with basics already
         - [ggplot_extended.R](https://github.com/redgar598/eipp_data_viz/blob/master/ggplot_extended.R)
-- Discuss individual data visulization needs
-    - Each person explains their porject and data structure
+- Discuss individual data visualization needs
+    - Each person explains their project and data structure
     - Sketch plots of data you would like to implement
 
 #### Day 2
