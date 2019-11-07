@@ -179,5 +179,7 @@ theme(
 ```
 install.packages("devtools") 
 library(devtools)
-devtools::install_github("dgrtwo/gganimate")
+install.packages("animation")
+install.packages("gganimate-0.1.1.tar.gz", repos = NULL, type="source")
+install.packages("gapminder")
 ```
