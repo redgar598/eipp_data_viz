@@ -174,3 +174,10 @@ theme(
   panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
                                 colour = "white"))
  ```
+
+
+```
+install.packages("devtools") 
+library(devtools)
+devtools::install_github("dgrtwo/gganimate")
+```
