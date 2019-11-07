@@ -165,13 +165,12 @@ The following example is for visualizing clustering data with color. The provide
 
 
 # Things we found
-'''
+```
 theme(
   panel.background = element_rect(fill = "#BFD5E3", colour = "#6D9EC1",
                                 size = 2, linetype = "solid"),
   panel.grid.major = element_line(size = 0.5, linetype = 'solid',
                                 colour = "white"), 
   panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
-                                colour = "white")
-  )
- '''
+                                colour = "white"))
+ ```
